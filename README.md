@@ -19,6 +19,7 @@ A supervised machine learning framework designed to detect and classify offensiv
 
 
 1.  **Data Loading & Label Mapping:** Converts categorical labels ("Hateful", "Neutral") into binary targets (1, 0).
+![Data Distribution Chart](Dataset Sample.png)
 2.  **Exploratory Data Analysis (EDA):** Visualizes class distribution using Matplotlib pie charts.
 3.  **Text Cleaning:** Uses `re` (Regex) to strip non-Bengali characters, ensuring the model focuses strictly on language patterns.
 4.  **Feature Extraction:** Utilizes `TfidfVectorizer` to transform cleaned text into numerical matrices.
