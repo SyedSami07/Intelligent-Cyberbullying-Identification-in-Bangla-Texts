@@ -48,7 +48,7 @@ The project includes a visualization script that generates a comparison bar char
 Ensure you have Python installed. You can install all dependencies using:
 ```bash
 pip install -r requirements.txt
----
+
 
 **Running the Project**
   * Place Bangla_Corpus.csv and bangla_stopwords.csv in the root directory.
@@ -60,12 +60,13 @@ model = pickle.load(open("LinearSVC.pkl", "rb"))
 vectorizer = pickle.load(open("tfidfvector.pkl", "rb"))
 # ... transform and predict ...
 
-🛠️ Tech Stack
-  * Language: Python 3.x
-  * Data Handling: Pandas, NumPy
-  * Visualization: Matplotlib, Seaborn
-  * Machine Learning: Scikit-learn
-  * Deployment: Pickle (Model Serialization)
+---
+
+## 🛠️ Tech Stack
+
+* **Language:** Python 3.x
+* **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+* **Serialization:** Pickle
 
 ---
 
