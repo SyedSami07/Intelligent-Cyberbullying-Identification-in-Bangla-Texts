@@ -40,27 +40,6 @@ The system evaluates models based on **Accuracy**, **F1-Score**, **Precision**, 
 The project includes a visualization script that generates a comparison bar chart of all tested algorithms to identify the most reliable model for Bengali text classification.
 
 ---
-
-## Installation & Usage
-
-### Prerequisites
-Ensure you have Python installed. You can install all dependencies using:
-```bash
-pip install -r requirements.txt
-
----
-
-## Running the Project
-  * Place Bangla_Corpus.csv and bangla_stopwords.csv in the root directory.
-  * Run the Jupyter Notebook or Python script to train models.
-  * Inference: The system exports tfidfvector.pkl and model files (e.g., LinearSVC.pkl). You can use these to predict new texts:
-
-import pickle
-model = pickle.load(open("LinearSVC.pkl", "rb"))
-vectorizer = pickle.load(open("tfidfvector.pkl", "rb"))
-# ... transform and predict ...
-
----
 ## 🛠️ Tech Stack
 
 * **Language:** Python 3.x
