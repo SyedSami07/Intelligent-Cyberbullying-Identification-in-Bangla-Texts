@@ -32,7 +32,7 @@ A supervised machine learning framework designed to detect and classify offensiv
 ## Performance Metrics
 The system evaluates models based on **Accuracy**, **F1-Score**, **Precision**, and **Recall**. 
 
-![Model Performance Comparison](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/blob/main/path/to/performance_bar_chart.png?raw=true)
+![Model Performance Comparison](https://github.com/SyedSami07/Intelligent-Cyberbullying-Identification-in-Bangla-Texts/blob/main/Performance.png)
 
 The project includes a visualization script that generates a comparison bar chart of all tested algorithms to identify the most reliable model for Bengali text classification.
 
