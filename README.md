@@ -18,30 +18,26 @@ A supervised machine learning framework designed to detect and classify offensiv
 
 
 
-1.  **Data Loading & Label Mapping:** Converts categorical labels ("Hateful", "Neutral") into binary targets (1, 0).
-![Data Distribution Chart](Intelligent-Cyberbullying-Identification-in-Bangla-Texts
-/Dataset Sample.png)
-2.  **Exploratory Data Analysis (EDA):** Visualizes class distribution using Matplotlib pie charts.
-3.  **Text Cleaning:** Uses `re` (Regex) to strip non-Bengali characters, ensuring the model focuses strictly on language patterns.
-4.  **Feature Extraction:** Utilizes `TfidfVectorizer` to transform cleaned text into numerical matrices.
-5.  **Model Training:** Evaluates the following algorithms:
-    * Linear SVC
-    * Logistic Regression
-    * Multinomial Naive Bayes
-    * Decision Tree
-    * AdaBoost & Bagging Classifiers
-    * Stochastic Gradient Descent (SGD)
-6.  **Persistence:** Saves trained models and vectorizers using `pickle` for real-time inference.
+1. **Data Loading & Label Mapping:** Converts categorical labels ("Hateful", "Neutral") into binary targets (1, 0).
+![Data Distribution](https://github.com/SyedSami07/Intelligent-Cyberbullying-Identification-in-Bangla-Texts/blob/main/Dataset%20Sample.png)
+
+2. **Exploratory Data Analysis (EDA):** Visualizes class distribution using Matplotlib pie charts.
+3. **Text Cleaning:** Uses `re` (Regex) to strip non-Bengali characters, ensuring the model focuses strictly on language patterns.
+4. **Feature Extraction:** Utilizes `TfidfVectorizer` to transform cleaned text into numerical matrices.
+5. **Model Training:** Evaluates various algorithms including Linear SVC, Logistic Regression, and Ensemble methods.
+6. **Persistence:** Saves trained models and vectorizers using `pickle` for real-time inference.
 
 ---
 
 ## Performance Metrics
 The system evaluates models based on **Accuracy**, **F1-Score**, **Precision**, and **Recall**. 
 
+![Model Performance Comparison](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/blob/main/path/to/performance_bar_chart.png?raw=true)
 
 The project includes a visualization script that generates a comparison bar chart of all tested algorithms to identify the most reliable model for Bengali text classification.
 
 ---
+
 ## 🛠️ Tech Stack
 
 * **Language:** Python 3.x
